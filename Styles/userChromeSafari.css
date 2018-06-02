@@ -1,8 +1,3 @@
-
-:root {
-  --tab-min-height: 24px !important;
-}
-
 #TabsToolbar {
   -moz-box-ordinal-group: 3;
 }
@@ -57,6 +52,7 @@
 #tabbrowser-tabs {
   margin-left: 0px !important;
   height: 24px !important;
+  --tab-min-height: 24px !important;
 }
 #TabsToolbar .tab-content > * {
   margin-top: 0px !important;
